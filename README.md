@@ -7,7 +7,7 @@ A script in Animation Nodes loads the point cloud from a `.ply` file and checks 
 ## How to use
 1. Download the [Animation Nodes plugin](https://animation-nodes.com/) and install the plugin in Blender. You can learn more about Animation Nodes in this [tutorial series](https://www.youtube.com/watch?v=fruLQhn4wWg).
 2. Install plyfile in your python installation: `pip install plyfile`
-3. Open the `pointcloud_animationnodes.blend` file in Blender and adjust the `Read ply` script so that it has access to your python site packages folder (see screenshot, the script panel in bottom right of the screen). You can find this folder with `python -m site`.
+3. Open the `pointcloud_animationnodes.blend` file in Blender and adjust the `Read ply` script so that it has access to your python site packages folder (see screenshot, the script panel in bottom right of the screen). If you don't know what folder to use, run `python -m site` in you console.
 4. Input the file path of your ply file in the `Input Path` frame in Animation Nodes (screenshot: panel in the bottom left). This must be an absolute path.
 5. You can edit colors in the shading tab in Blender.
 6. You should now see something like the following screen:
