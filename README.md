@@ -1,7 +1,7 @@
 # Point Clouds in Blender + Animation Nodes
 This blender file helps you load in point clouds with animation nodes and provides a starting point to render your own beautiful point clouds in Blender.
 
-![Example render with a plane added as a shadow catcher](example_render.png)
+![Example render with a plane added as a shadow catcher](render.png)
 
 ## What it does
 A script in Animation Nodes loads the point cloud from a `.ply` file and checks if normals, colors, or scalars are available. It then instances spheres at the point locations and lets the user link the attributes from the ply file to attributes of the spheres (such as color used in shading). You can change the sphere into anything you'd like and expand the script to load from numpy files or other data types that store point clouds.
